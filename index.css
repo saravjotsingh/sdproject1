@@ -17,6 +17,13 @@ html{
     z-index:999;
     padding:10px;
 }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
 
 .nav>li>a {
     color:black;
@@ -223,7 +230,11 @@ modal-4{
   display: inline-block;
 }
 
-
+#subscribe-form{
+    display:flex;
+    width:50%;
+    margin:30px auto;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -231,11 +242,44 @@ modal-4{
         background-color: skyblue;
     }
     .top-data{
-        margin:25%;
+        margin-top:45%;
     }
     
     .modal-6{
-        margin-top:190%;
+        margin-top:240%;
+    }
+    
+    #top-id3{
+        width:100%;
+    }
+    #top-id2{
+        font-size:5vw
+    }
+    #Blog-modal{
+        margin-bottom:30px;
+    }
+    #subscribe-form{
+        width:100%;
     }
 }
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .top{
+        margin-top: -150px;
+        
+    }
+    .top-data{
+        margin-top:25%;
+    }
+    
+    .modal-6{
+        margin-top:35%;
+    }
+    
+    .modal-51{
+        width:100%;
+        margin: auto;
+    }
+    
+}

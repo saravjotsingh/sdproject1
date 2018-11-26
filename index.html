@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <title>smartData Project 1</title>
+    <title>Life Trials</title>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -72,7 +72,7 @@
     <div class="modal-4 container">
     <div class="row">
         <div class="col-sm-5">
-        <img id="video-image" src="images/video-img.png">
+        <img class="img-responsive" id="video-image" src="images/video-img.png">
             <p>LifeTrials - What we do</p>
         </div>
         <div class="col-sm-7">
@@ -89,7 +89,7 @@ The LifeTrials service will be entirely free for everyone, and the reports will 
         <div class="modal-51 container text-center">
         <div class="modal-51heading">JOIN OUR COMMUNITY</div>
             <div class="modal-51s">Sign up to receive emails from LifeTrials</div>
-            <div class="form-group" style="display:flex;width:50%;margin:30px auto;">
+            <div class="form-group" id="subscribe-form">
                 <input type="email" placeholder="Enter your email" class="form-control" id="email"><button style="margin-left:10px;" class="btn btn-primary">Subscribe</button>
   </div>
         </div>
@@ -98,25 +98,25 @@ The LifeTrials service will be entirely free for everyone, and the reports will 
     <div class="text-center" style="margin:7% 0;font-weight: bold;font-size:24px">Blogs</div>
         
         <div class="row text-center" id="blogs">
-        <div class="col-sm-4">
-            <img src="images/blog-img-1.jpg">
+        <div class="col-sm-4" id="Blog-modal">
+            <img class="img-responsive" src="images/blog-img-1.jpg">
             <div class="blogheading">New Cancer Treatment</div>
             <div class="blog2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis rhoncus feugiat. Vestibulum ante ipsum primis in faucibus </div>
             <button class="btn btn-primary">View More</button>
             </div>
-            <div class="col-sm-4"><img src="images/blog-img-2.jpg">
+            <div class="col-sm-4" id="Blog-modal"><img class="img-responsive" src="images/blog-img-2.jpg">
             <div class="blogheading">New Cancer Treatment</div>
             <div class="blog2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis rhoncus feugiat. Vestibulum ante ipsum primis in faucibus </div>
             <button class="btn btn-primary">View More</button>
             </div>
-            <div class="col-sm-4"><img src="images/blog-img-3.jpg">
+            <div class="col-sm-4" id="Blog-modal"><img class="img-responsive" src="images/blog-img-3.jpg">
             <div class="blogheading">New Cancer Treatment</div>
             <div class="blog2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis rhoncus feugiat. Vestibulum ante ipsum primis in faucibus </div>
             <button class="btn btn-primary">View More</button>
             </div>
-            <span class="indicators"></span>
-            <span class="indicators-active"></span>
-            <span class="indicators"></span>
+            <span class="indicators hidden-xs"></span>
+            <span class="indicators-active hidden-xs"></span>
+            <span class="indicators hidden-xs"></span>
         </div>
         
     </div>
